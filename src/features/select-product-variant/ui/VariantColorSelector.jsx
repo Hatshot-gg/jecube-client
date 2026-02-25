@@ -1,6 +1,6 @@
 import React from "react";
 import cls from "./VariantColorSelector.module.scss";
-import ColorDot from "@/shared/ui/color-dot/colorDot";
+import ColorDot from "@/shared/ui/color-dot/СolorDot.jsx";
 
 export default function VariantColorSelector({
   variants,
