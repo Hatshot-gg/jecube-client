@@ -1,0 +1,28 @@
+/* features/select-product-variant/ui/VariantColorSelector.module.scss */
+.wrap {
+  display: flex;
+  align-items: center;
+}
+
+.item {
+  position: relative;
+  padding: 4px;
+  &:hover .bar {
+    opacity: 1;
+  }
+}
+
+.bar {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 0;
+  width: 8px;
+  height: 1px;
+  background: #000;
+  opacity: 0;
+}
+
+.active .bar {
+  opacity: 1;
+}
